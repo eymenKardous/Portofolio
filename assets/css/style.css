@@ -1,0 +1,250 @@
+*{
+    color: white;
+}
+
+#site{
+    color: white;
+}
+
+
+body {
+    width: 99vw;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+    color: white;
+}
+
+header{
+    background-image: url(../img/background.jpg);
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    font-size: 20px;
+}
+
+.createButton{
+    height: 40px;
+    border: 1px solid black;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+    margin-top: 20px;
+}
+
+.connexionButton{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    height: 80px;
+}
+
+#me {
+    font-family: 'Montserrat Alternates';
+    text-align: center;
+    font-size: 64px;
+}
+
+.addProject{
+    height: 40px;
+    border: 1px solid black;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+    margin-top: 20px; 
+}
+
+.mediatèque{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.mediatèque img{
+    height: 500px;
+    width: 500px;
+}
+
+.mediatèque canvas{
+    height: 500px;
+    width: 2px;
+    background: linear-gradient(180deg, #150B32 0%, #FFF1F0 100%);
+}
+
+.bio{
+    border: 1px solid white;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 160px;
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    margin-bottom: 160px;
+}
+
+.divXp, #divCompetences{
+    border: 1px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#xp {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'yomogi';
+    margin-top: 60px;
+}
+
+.firstGroupOfXp {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.secondGroupOfXp {
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 100px;  
+}
+
+#second{
+    margin-top: 150px;
+}
+
+#fourth{
+    margin-top: 150px;
+}
+
+#xp canvas{
+    height: 500px;
+    width: 2px;
+    background: linear-gradient(180deg, #150B32 0%, #FFF1F0 100%);
+    margin-bottom: 160px;
+}
+
+.competences{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.competences img{
+    height: 105px;
+    width: 105px;
+}
+
+.carousel-item img,
+button {
+    height: 600px;
+}
+
+#caroussel {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.acces{
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.acces a{
+    color: white;
+    text-decoration: none;
+}
+
+.acces:hover{
+    font-size: 20px;
+}
+
+#logoContact{
+    display: flex;
+    justify-content: center;
+    height: 260px;
+}
+
+#logoContact img{
+    padding: 30px;
+    height: 170px;
+    width: 170px;
+}
+
+#logoContact img:hover{
+    height: 200px;
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'yomogi';
+    margin-bottom: 100px;
+}
+
+form span {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50vw;
+    font-size: 20px;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50vw;
+}
+
+form textarea {
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 50vw;
+    font-size: 20px;
+}
+
+form #send{
+    background-color: gray;
+    color: black;
+    width: 70px;
+    border-radius: 10%;
+}
+
+form #send:hover{
+background-color: black;
+color: white;
+}
+
+#contact {
+    text-align: center;
+    font-family: 'yomogi';
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+

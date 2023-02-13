@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/addProjectFormStyle.css">
+		<link href='https://fonts.googleapis.com/css?family=Yomogi' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+
+		<title>Connexion</title>
+	</head>
+	<body>
+
+
+		<div>{{message}}</div>
+		<h1>Se connecter</h1>
+
+
+		<form action="/connected" method="POST">
+			<label for="login">Nom d'utilisateur</label>
+			<input type="text" id="login" name="login" value="{{login}}">
+			<label for="password">Mot de passe</label>
+			<input type="password" id="password" name="password">
+			<input type="submit" class="send"></button>
+		</form>
+
+		<div class="createButton">
+			{# <a href="createUser">CREER UN UTILISATEUR</a> #}
+		</div>
+
+	</body>
+</html>

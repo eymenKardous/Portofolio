@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/addProjectFormStyle.css">
+		<link href='https://fonts.googleapis.com/css?family=Yomogi' rel='stylesheet'>
+				<link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Ajout de projet</h1>
+
+		<a href="/projects" class="accueil">Accueil</a>
+
+		<form action="/addProject" method="POST" enctype="multipart/form-data">
+
+			<label for="name">Nom du projet</label>
+			<input type="text" id="name" name="name">
+
+			<label for="description">Description</label>
+			<input type="text" id="description" name="description">
+
+			<label for="techno">Technologies utilisées</label>
+			<input type="text" id="techno" name="techno">
+
+			<label for="image">Preview du projet</label>
+			<input type="file" id="image" name="image">
+
+			<label for="url">Lien du projet</label>
+			<input type="text" id="url" name="url">
+
+			<input type="submit" class="send"></button>
+		</form>
+	</body>
+</html>

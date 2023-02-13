@@ -1,0 +1,58 @@
+
+body {
+    width: 98vw;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+    color: white;
+    font-family: 'Montserrat Alternates';
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+    margin-left: 43%;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.send{
+    margin-top: 20px;
+    width: 210px;
+}
+
+.send:hover{
+    color: white;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+}
+
+.createButton{
+    height: 40px;
+    border: 1px solid black;
+    background: linear-gradient(170.3deg, #291267 1.51%, #000000 100%);
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.createButton a{
+    color: white;
+    text-decoration: none;
+}
+
+.accueil{
+    text-decoration: none;
+    color: white;
+    margin-left: 48%;
+}

@@ -1,0 +1,149 @@
+@media screen and (max-width: 844px)
+{
+
+header{
+    font-size: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.navbar-toggler{
+    height: 40px;
+    justify-content: center;
+}
+
+#site{
+    font-size: 10px;
+}
+
+#me{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    height: 20px;
+    width: 20px;
+}
+
+#job{
+display: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.mediatèque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    margin-top: 10vw;
+}
+
+.mediatèque img{
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+}
+
+ canvas{
+    display: none;
+}
+
+.bio{
+    margin-top: 20vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.bio p{
+font-size: 15px;
+}
+
+.dixXp{
+    margin-top: 20vw;
+}
+
+#xp {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: 'yomogi';
+}
+
+.firstGroupOfXp {
+    width: 500px;
+    margin-left: 8vw;
+}
+
+.secondGroupOfXp {
+    width: 500px;
+    margin-right: 8vw;
+}
+
+#fourth{
+margin-top: 18vw;
+}
+
+#divCompetences{
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+#divCompetences img{
+    height: 50px;
+    width: 50px;
+}
+
+#caroussel{
+    margin-top: 20vw;
+}
+
+#caroussel img{
+    height: 350px;
+    width: 350px;
+}
+
+#caroussel button{
+    height: 50px;
+    width: 250px;
+}
+
+.logoContact{
+    height: 50px;
+    width: 50px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logoContact img{
+    height: 50px;
+    width: 50px;
+}
+
+#contact{
+    margin-top: 20vw;
+}
+
+.contactForm span{
+    font-size: 15px;
+}
+
+footer{
+    border: none;
+    font-size: 8px;
+}
+
+}
