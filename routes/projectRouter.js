@@ -26,6 +26,14 @@ projectRouter.get('/projects', async (req, res) => {           /*Afficher tous l
    }
 })
 
+projectRouter.get('/', async (req, res) => {           /*Afficher tous les projets*/
+   try {
+      res.redirect('/projects')
+   } catch (err) {
+      res.send(err);
+   }
+})
+
 projectRouter.get('/deleteProject/:id', async (req, res) => {           /*Supprimer un projet*/
    try {
       await projectModel.deleteOne({ _id: req.params.id });
